@@ -1,0 +1,37 @@
+----------------------------
+estructura base de un HTML
+----------------------------
+----------------------------
+<!DOCTYPE html>
+----------------------------
+la declaración principal que le indica al navegador qué versión de HTML debe usar, para este caso HTML5. es una declaración del tipo de documento.
+
+----------------------------
+<html>
+</html>
+----------------------------
+el elemento que encapsula toda nuestra página web. es el elemento raíz, siendo el elemento de mayor jerarquía.
+----------------------------
+<head>
+</head>
+----------------------------
+elemento contenedor de todos los metadatos y la configuración no visible para el usuario final.
+----------------------------
+<body>
+</body>
+----------------------------
+cuerpo del documento, este contendrá todos los elementos visibles.
+
+esta será la estructura base. hay que recordar que para los elementos encapsulados dentro de un body o un head se recomienda usar la sangría para una mejor legibilidad.
+
+con estos tres elementos tendremos la estructura base de una página web, viéndose de la siguiente manera:
+
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  </body>
+</html>
+
+se recomienda el uso de sangría, es decir, dos espacios para todo elemento que esté contenido en otro. para este caso usamos la sangría para head y body contenidos en el HTML.
