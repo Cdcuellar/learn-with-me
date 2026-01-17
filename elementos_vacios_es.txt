@@ -1,0 +1,33 @@
+-------------------------------------------------
+elementos vacíos
+-------------------------------------------------
+los elementos vacíos son fáciles de reconocer, ya que estos no cuentan con una etiqueta de cierre. por ejemplo:
+-------------------------------------------------
+<img src="tu_url" alt="descripción de imagen"/>
+nota: este elemento está contenido en el body de la página web, o dentro de main.
+-------------------------------------------------
+usaremos el elemento img cada vez que queramos añadir una imagen a nuestra página web.
+
+- src: contiene la url o ruta de la imagen.
+- alt: contiene una descripción alternativa que aparecerá si la imagen no se muestra.
+
+además, el atributo alt es importante para la accesibilidad, ya que permite que personas no videntes puedan entender el contexto de la imagen.
+-------------------------------------------------
+<meta/>
+nota: este elemento está contenido en el head de la página web.
+-------------------------------------------------
+usamos el elemento meta para agregar metadatos de la página web, guiándonos por sus atributos.
+
+por ejemplo, el atributo charset nos permitirá evitar problemas con caracteres especiales, como la ñ o símbolos como @.
+-------------------------------------------------
+<br/>
+nota: este elemento va contenido dentro de elementos de texto como h1, h2 o el elemento p.
+-------------------------------------------------
+este elemento lo usaremos para hacer un salto de línea.
+
+para ver la utilización de estos elementos puedes ir al ejemplo correspondiente.
+-------------------------------------------------
+
+nota importante:
+en html5 no es obligatorio escribir el / al final en elementos vacíos (por ejemplo: <br>), pero muchos editores lo permiten y el navegador lo interpreta sin problema.
+en react (jsx) sí es obligatorio cerrarlos con /, por ejemplo: <img ... />.
