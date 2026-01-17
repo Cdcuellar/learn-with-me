@@ -1,0 +1,37 @@
+----------------------------
+base structure of an HTML
+----------------------------
+----------------------------
+<!DOCTYPE html>
+----------------------------
+the main declaration that tells the browser which version of HTML it should use, in this case HTML5. it is a document type declaration.
+
+----------------------------
+<html>
+</html>
+----------------------------
+the element that wraps our entire web page. it is the root element, being the element with the highest hierarchy.
+----------------------------
+<head>
+</head>
+----------------------------
+container element for all metadata and configuration that is not visible to the end user.
+----------------------------
+<body>
+</body>
+----------------------------
+body of the document, this will contain all visible elements.
+
+this will be the base structure. keep in mind that for elements nested inside a body or a head, it is recommended to use indentation for better readability.
+
+with these three elements we will have the base structure of a web page, looking like this:
+
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  </body>
+</html>
+
+it is recommended to use indentation, that is, two spaces for every element that is contained inside another one. in this case we use indentation for head and body contained inside the html.
