@@ -25,7 +25,7 @@ note: this element is placed inside text elements such as h1, h2, or the p eleme
 -------------------------------------------------
 we use this element to create a line break.
 
-to see how these elements are used, you can check the corresponding example.
+to see how these elements are used, you can check the corresponding example (example_1).
 -------------------------------------------------
 
 important note:
