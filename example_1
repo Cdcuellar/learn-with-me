@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+  Basic HTML5 document.
+  Note: In HTML5, the trailing "/" in void elements (like <meta /> or <img />) is optional.
+  You can keep it for consistency if you want.
+-->
+<html lang="en">
+  <head>
+    <!--
+      <meta charset="utf-8" /> sets the character encoding.
+      UTF-8 supports accents, special characters, symbols, etc.
+    -->
+    <meta charset="utf-8" />
+
+    <!-- Title shown in the browser tab -->
+    <title>Travel Agency Page</title>
+
+    <!--
+      Meta description:
+      A short summary of the page (useful for SEO and link previews).
+    -->
+    <meta
+      name="description"
+      content="Visit the best tourist destinations in the world with our travel packages."
+    />
+  </head>
+
+  <body>
+    <!-- Main heading: ideally only one <h1> per page (good practice) -->
+    <h1>Travel to the best places</h1>
+    <p>On this page you will find the best tourist destinations in the world.</p>
+
+    <!-- Section subtitle -->
+    <h2>Packages</h2>
+    <p>
+      We offer plans ranging from hotel-only stays to guided tour services, so
+      you can discover everything about the countries you will travel to with
+      us.
+    </p>
+
+    <!--
+      Unordered list (<ul>):
+      Used when the order of items does NOT matter.
+    -->
+    <ul>
+      <li>
+        <!--
+          <a> creates a link.
+          target="_blank" opens the link in a new tab.
+          (Tip) It's common to add rel="noopener noreferrer" for security.
+        -->
+        <a href="https://www.freecodecamp.org/learn" target="_blank"
+          >Group Trips</a
+        >
+      </li>
+
+      <li>
+        <a href="https://www.freecodecamp.org/learn" target="_blank"
+          >Private Tours</a
+        >
+      </li>
+    </ul>
+
+    <h2>Top Itineraries</h2>
+
+    <!--
+      <figure> groups media content (like an image) and its caption.
+      This improves semantics and accessibility.
+    -->
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <!--
+          <img> embeds an image.
+          alt provides a text alternative: helpful for accessibility and if the image fails to load.
+        -->
+        <img
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/..."
+          alt="The Colosseum in Rome"
+        />
+      </a>
+
+      <!--
+        <figcaption> shows a visible caption for the image.
+        <br /> adds a line break (use it sparingly).
+      -->
+      <figcaption><br />Colosseum in Rome, Italy</figcaption>
+    </figure>
+
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/..."
+          alt="Swiss mountains: the Alps"
+        />
+      </a>
+      <figcaption><br />Mountains: the Alps</figcaption>
+    </figure>
+
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/..."
+          alt="Sicily islands, Italy"
+        />
+      </a>
+      <figcaption><br />Italy: Sicily islands</figcaption>
+    </figure>
+  </body>
+</html>
