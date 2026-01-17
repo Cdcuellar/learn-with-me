@@ -25,7 +25,7 @@ nota: este elemento va contenido dentro de elementos de texto como h1, h2 o el e
 -------------------------------------------------
 este elemento lo usaremos para hacer un salto de línea.
 
-para ver la utilización de estos elementos puedes ir al ejemplo correspondiente.
+para ver la utilización de estos elementos puedes ir al ejemplo correspondiente (ejemplo_1).
 -------------------------------------------------
 
 nota importante:
