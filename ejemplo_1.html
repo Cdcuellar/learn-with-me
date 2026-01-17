@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+  Documento HTML5 básico.
+  Nota: En HTML5 el " / " en etiquetas vacías (por ejemplo <meta /> o <img />) es opcional.
+  Puedes dejarlo si te ayuda a mantener consistencia con otras herramientas o hábitos.
+-->
+<html lang="es">
+  <head>
+    <!--
+      <meta charset="utf-8" /> define la codificación de caracteres.
+      UTF-8 permite usar tildes, ñ, símbolos, etc., sin problemas.
+    -->
+    <meta charset="utf-8" />
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>Página de Agencia de Viajes</title>
+
+    <!--
+      Meta description:
+      Descripción corta de la página (útil para buscadores y para compartir enlaces).
+    -->
+    <meta
+      name="description"
+      content="Visita los mejores lugares turísticos del mundo con nuestros paquetes de viaje."
+    />
+  </head>
+
+  <body>
+    <!-- Encabezado principal: debe existir solo un <h1> por página (buena práctica) -->
+    <h1>Viaja al mejor lugar</h1>
+    <p>En esta página encontrarás los mejores lugares turísticos del mundo.</p>
+
+    <!-- Subtítulo de sección -->
+    <h2>Paquetes</h2>
+    <p>
+      Tenemos planes desde solo el hotel, hasta servicios turísticos para que
+      conozcas todo sobre los países a los que viajarás con nosotros.
+    </p>
+
+    <!--
+      Lista no ordenada (<ul>):
+      Se usa cuando el orden de los elementos NO importa.
+    -->
+    <ul>
+      <li>
+        <!--
+          <a> crea un enlace.
+          target="_blank" abre el enlace en una nueva pestaña.
+          (Tip) También suele usarse rel="noopener noreferrer" por seguridad.
+        -->
+        <a href="https://www.freecodecamp.org/learn" target="_blank"
+          >Viajes en grupo</a
+        >
+      </li>
+
+      <li>
+        <a href="https://www.freecodecamp.org/learn" target="_blank"
+          >Tours privados</a
+        >
+      </li>
+    </ul>
+
+    <h2>Mejores itinerarios</h2>
+
+    <!--
+      <figure> agrupa contenido visual (como imágenes) y su descripción.
+      Esto mejora la semántica y la accesibilidad.
+    -->
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <!--
+          <img> inserta una imagen.
+          alt describe la imagen: ayuda a accesibilidad y cuando la imagen no carga.
+        -->
+        <img
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/..."
+          alt="Coliseo de Roma"
+        />
+      </a>
+
+      <!--
+        <figcaption> muestra una descripción visible de la imagen.
+        <br /> hace un salto de línea (útil, pero úsalo con moderación).
+      -->
+      <figcaption><br />Coliseo en Roma, Italia</figcaption>
+    </figure>
+
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/..."
+          alt="Montañas de Suiza: los Alpes"
+        />
+      </a>
+      <figcaption><br />Montañas: los Alpes</figcaption>
+    </figure>
+
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/..."
+          alt="Islas de Sicilia, Italia"
+        />
+      </a>
+      <figcaption><br />Italia: Islas de Sicilia</figcaption>
+    </figure>
+  </body>
+</html>
