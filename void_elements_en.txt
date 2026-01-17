@@ -1,0 +1,33 @@
+-------------------------------------------------
+void elements (empty elements)
+-------------------------------------------------
+void elements are easy to recognize because they do not have a closing tag. for example:
+-------------------------------------------------
+<img src="your_url" alt="image description"/>
+note: this element is placed inside the body of the web page, or inside main.
+-------------------------------------------------
+we use the img element whenever we want to add an image to our web page.
+
+- src: contains the url or path of the image.
+- alt: contains an alternative description that will appear if the image cannot be displayed.
+
+also, the alt attribute is important for accessibility, because it helps visually impaired people understand the context of the image.
+-------------------------------------------------
+<meta/>
+note: this element is placed inside the head of the web page.
+-------------------------------------------------
+we use the meta element to add metadata to the web page, depending on its attributes.
+
+for example, the charset attribute allows our page to correctly display special characters, such as ñ or symbols like @.
+-------------------------------------------------
+<br/>
+note: this element is placed inside text elements such as h1, h2, or the p element.
+-------------------------------------------------
+we use this element to create a line break.
+
+to see how these elements are used, you can check the corresponding example.
+-------------------------------------------------
+
+important note:
+in html5 it is not required to write the / at the end of void elements (for example: <br>), but many editors allow it and the browser will still interpret it correctly.
+in react (jsx) it is required to close them with /, for example: <img ... />.
